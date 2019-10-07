@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+project()
+
+set(SOURCE_FILES main.cpp Rutina.cpp Rutina.h Clase.cpp Clase.h Socio.cpp Socio.h Instructor.cpp Instructor.h Gimnasio.cpp Gimnasio.h)
+
+add_executable( ${SOURCE_FILES})
