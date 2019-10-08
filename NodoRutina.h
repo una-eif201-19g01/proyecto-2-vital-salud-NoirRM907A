@@ -1,11 +1,23 @@
 #ifndef NODO_RUTINA_H
 #define NODO_RUTINA_H
 #include<iostream>
+#include"Rutina.h"
 class NodoRutina {
 private:
+	NodoRutina* siguiente;
+	Rutina* dato;
 public:
-	NodoRutina();
+	NodoRutina(Rutina*, NodoRutina*);
+
 	~NodoRutina();
+
+	Rutina* obtenerDato();
+
+	NodoRutina* obtenerSiguiente();
+
+	void definirDato(Rutina*);
+
+	void fijarSiguiente(NodoRutina*);
 
 
 };
