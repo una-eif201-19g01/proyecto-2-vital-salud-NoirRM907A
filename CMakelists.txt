@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.14)
-project()
+project(proyecto-2-vital-salud-NoirRM907A)
 
-set(SOURCE_FILES main.cpp Rutina.cpp Rutina.h Clase.cpp Clase.h Socio.cpp Socio.h NodoSocio.cpp NodoSocio.h NodoInstructor.cpp NodoInstructor.h Instructor.cpp Instructor.h Gimnasio.cpp Gimnasio.h)
+set(SOURCE_FILES main.cpp Rutina.cpp Rutina.h Clase.cpp Clase.h 
+Socio.cpp Socio.h NodoSocio.cpp NodoSocio.h NodoInstructor.cpp NodoInstructor.h Instructor.cpp 
+Instructor.h Gimnasio.cpp Gimnasio.h)
 
 add_executable( ${SOURCE_FILES})
